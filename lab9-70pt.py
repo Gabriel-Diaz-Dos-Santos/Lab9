@@ -12,3 +12,8 @@
 # Accept user input 
 # Calculate fahrenheit
 # Output answer
+
+Celsius = float(input('Enter degree Celsius:  '))
+
+Fahrenheit = (Celsius * 1.8) + 32 
+print('%0.1f degree Celsius is eaqual to %0.1f degree Fahrenheit'  %(Celsius,Fahrenheit))
